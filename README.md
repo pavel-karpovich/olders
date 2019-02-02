@@ -1,2 +1,2 @@
 # olders
-internet basics for olders
+Internet basics for olders (in Russian)

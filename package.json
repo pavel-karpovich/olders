@@ -1,0 +1,37 @@
+{
+  "name": "olders",
+  "version": "1.0.0",
+  "description": "The lectures about basics of the Internet for old people",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgjmjgj/older.git"
+  },
+  "author": "Pavel Karpovich",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-run": "^1.7.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-useref": "^3.1.6",
+    "gulp-watch": "^5.0.1",
+    "jshint": "^2.9.7",
+    "npx": "^10.2.0",
+    "yaspeller": "^5.0.1"
+  }
+}
