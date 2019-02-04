@@ -175,7 +175,7 @@ const serverWatch = gulp.parallel(watchServ, serveDir);
 const default_task = gulp.series(build, serverWatch);
 
 const ya = function(cb) {
-    run(`npx yaspeller`).exec()
+    run(`npx yaspeller .\\`).exec()
         .on("error", function(err) {
             console.error(err.message);
             cb();
